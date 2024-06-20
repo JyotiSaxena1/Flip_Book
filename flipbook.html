@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="book">
+    <input type="checkbox" id="c1">
+    <input type="checkbox" id="c2">
+    <input type="checkbox" id="c3">
+    <div class="cover">                
+        <img src="first.jpg" alt="Cover Image">
+    </div>
+    <div class="flip-book">
+        <div class="flip" id="p1">
+            <div class="back">
+                <img src="apple.png" alt="apple Image">
+                <label class="back-btn" for="c1">Back</label>
+            </div>
+            <div class="front">
+                <h2>Apple</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga molestiae ex perspiciatis eius? Quasi veritatis libero quisquam? Ipsum rerum porro optio, autem totam voluptatibus officiis, magnam necessitatibus impedit, rem laborum aspernatur quas dolorum eligendi.
+                </p>
+                <label class="next-btn" for="c1">Next</label>
+            </div>
+            <div class="back">
+                <img src="orange.png" alt="Orange Image">
+                <label class="back-btn" for="c1">Back</label>
+            </div>
+        </div>
+
+        <div class="flip" id="p2">
+            <div class="front">
+                <h2>Orange</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga molestiae ex perspiciatis eius? Quasi veritatis libero quisquam? Ipsum rerum porro optio, autem totam voluptatibus officiis, magnam necessitatibus impedit, rem laborum aspernatur quas dolorum eligendi.
+                </p>
+                <label class="next-btn" for="c2">Next</label>
+            </div>
+            <div class="back">
+                <img src="strawberry.jpg" alt="Strawberry Image">
+                <label class="back-btn" for="c2">Back</label>
+            </div>
+        </div>
+
+        <div class="flip" id="p3">
+            <div class="front">
+                <h2>Strawberry</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga molestiae ex perspiciatis eius? Quasi veritatis libero quisquam? Ipsum rerum porro optio, autem totam voluptatibus officiis, magnam necessitatibus impedit, rem laborum aspernatur quas dolorum eligendi.
+                </p>
+                <label class="next-btn" for="c3">Next</label>
+            </div>
+            <div class="back">
+                <img src="first.jpg" alt="Cover Image">
+                <label class="back-btn" for="c3">Back</label>
+            </div>
+        </div>
+    </div>
+</div>  
+</body>
+</html>
